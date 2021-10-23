@@ -2,6 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 
+Route::get('/index', 'App\Http\Controllers\UserController@index');
+
+Route::get('station/list', 'App\Http\Controllers\StationController@list');
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes

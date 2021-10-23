@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+/*全体用のCCSです。*/
+.toppage{
+    width: 100%;
+    height: 100%;
+}
+
+/*以下はヘッダー用のCSSの設定です。*/
+.toppage-header {
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+    padding: 15px;
+}
+
+.toppage-header-content{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    justify-content: space-between;
+    display:flex ;
+    align-items: center;
+}
+
+.toppage-header-content-title{
+   background-color: green;
+
+}
+
+li{
+    display: inline;
+    padding-left: 5px;
+}
+
+/*以下はメイン上部用のCSSの設定です。*/
+
+.toppage-main{
+    height: calc(100% - 200px);
+    background-color: grey;
+
+}
+
+.toppage-main-upside{
+    margin-top: 10px;
+    height: 300px;
+    background-color: hotpink;
+    display: flex;
+    margin: 0 200px 0 200px;
+}
+
+.toppage-main-upside-first-content{
+  background-color: yellow;
+  width: 50%;
+}
+
+.toppage-main-upside-second-content{
+    background-color: red;
+    width: 50%;
+  }
+
+.toppage-main-upside-first-content-box{
+  width: 150px;
+  height: 150px;
+  background-color: yellowgreen;
+
+}
+
+/*以下はメイン中部用のCSSの設定です。*/
+
+.toppage-main-middle-first{
+
+    width: 100%;
+    height: 400px;
+    background-color: wheat;
+    margin-top: 30px;
+}
+
+.toppage-main-middle-second{
+    width: 100%;
+    height: 400px;
+    background-color: wheat;
+}
+
+.topage-main-middle-title{
+    font-size: 30px;
+    text-align: center;
+    color: turquoise;
+}
+
+.toppage-main-middle-content{
+    display: flex;
+}
+.topage-main-middle-content-box-1{
+    width: 300px;
+    height: 200px;
+    background-color: tomato;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+/*box用のCSS*/
+.box-title{
+    text-align: center;
+}
+
+.box-img{
+
+}
+
+.box-caption{
+    width: 100%;
+    text-align: center;
+
+}
+
+/*フッター用のCSS*/
+.toppage-footer{
+   width: 100%;
+   height: 200px;
+   background-color: thistle;
+}
