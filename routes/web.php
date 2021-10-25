@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/index', 'App\Http\Controllers\UserController@index');
 Route::post('/index', 'App\Http\Controllers\UserController@index');
-
+Route::get('user/registration', 'App\Http\Controllers\UserController@registration');
 
 Route::get('station/list', 'App\Http\Controllers\StationController@list');
 Route::post('station/list', 'App\Http\Controllers\StationController@list');
@@ -24,3 +24,7 @@ Route::post('station/list', 'App\Http\Controllers\StationController@list');
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
