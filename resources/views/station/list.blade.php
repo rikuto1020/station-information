@@ -10,6 +10,17 @@
 
 <div class="list-page">
 
+
+<?php
+if(preg_match('/station-name/',$item))
+
+echo $station;
+
+else
+
+echo 'エラーです'
+?>
+
 <div class="list-page-title">
 タイトル
 </div>

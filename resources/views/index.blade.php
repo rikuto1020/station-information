@@ -53,6 +53,14 @@
         <p　class="toppage-main-upside-first-content-box-text-3">
         テスト
 　　　　 </p>
+
+        <form action="/station/list" method="post">
+        @csrf
+　　　　<input type="text" name="station" >
+       <input type="submit" name="submit" value="検索">
+
+　　　　</form>
+        
       </div>
     </div>
     <div class="toppage-main-upside-second-content">
